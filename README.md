@@ -8,6 +8,7 @@ Vibe Coding 工程师
 - 🔭 ：数据库 CDC
 - 🌱 ：产品设计
 - 💬 ：Java、Spring、MySQL、PostgreSQL、MongoDB、Oracle、达梦
+- 🤖 ：AI is everything！
 
 ## 🧩 技术栈
 - **前端：** React、Vue
