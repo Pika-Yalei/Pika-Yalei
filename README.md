@@ -1,5 +1,7 @@
 # YaLei（Pika）
 
+> 让我们享受当下的美好.
+
 Dream Job：
 - 💻：数字游牧人
 
