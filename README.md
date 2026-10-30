@@ -43,7 +43,7 @@ Dream Job：💻 数字游牧人
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![RocksDB](https://img.shields.io/badge/RocksDB-2A2A2A?style=flat-square&logo=rocksdb&logoColor=white)
 
-**数据同步**
+**消息 & 流处理**
 
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Flink CDC](https://img.shields.io/badge/Flink%20CDC-E6526F?style=flat-square&logo=apacheflink&logoColor=white)
