@@ -1,0 +1,96 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: '23 3 * * *' # Daily at 03:23 UTC (11:23 China time).
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/profile-stats.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # Commit generated SVGs to this repository only.
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+
+      # Public statistics only: GitHub supplies this short-lived token; no PAT.
+      # Fail before committing on errors, keeping the last successful images.
+      - name: Generate stats (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=Pika-Yalei&show_icons=true&hide_rank=true&disable_animations=true&title_color=0969da&icon_color=0969da&text_color=1f2328&bg_color=ffffff&border_color=d1d9e0
+          path: profile/stats.svg
+          core_version: '2.2.1'
+          fail_on_error: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate languages (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=Pika-Yalei&layout=compact&langs_count=6&disable_animations=true&title_color=0969da&text_color=1f2328&bg_color=ffffff&border_color=d1d9e0
+          path: profile/top-langs.svg
+          core_version: '2.2.1'
+          fail_on_error: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=Pika-Yalei&show_icons=true&hide_rank=true&disable_animations=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d
+          path: profile/stats-dark.svg
+          core_version: '2.2.1'
+          fail_on_error: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate languages (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=Pika-Yalei&layout=compact&langs_count=6&disable_animations=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d
+          path: profile/top-langs-dark.svg
+          core_version: '2.2.1'
+          fail_on_error: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate generated SVGs
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for name in ('stats', 'top-langs', 'stats-dark', 'top-langs-dark'):
+              path = Path('profile') / f'{name}.svg'
+              content = path.read_text()
+              root = ET.fromstring(content)
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', path
+              assert 'Something went wrong' not in content, path
+              assert root.findall('.//{http://www.w3.org/2000/svg}text'), path
+              print(f'Validated {path}')
+          PY
+
+      - name: Commit updated cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile/stats.svg profile/top-langs.svg profile/stats-dark.svg profile/top-langs-dark.svg
+          if git diff --cached --quiet; then
+            echo 'Cards are unchanged.'
+            exit 0
+          fi
+          git commit -m 'chore: refresh profile stats'
+          git push origin HEAD:main
