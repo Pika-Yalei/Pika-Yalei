@@ -1,5 +1,5 @@
 {
-  "provider": "aleen42/badges",
+  "provider": "aleen42/badges and Badgen",
   "variant": "flat_square",
   "downloaded_at": "2026-10-30",
   "note": "Original downloaded SVG bytes; no redraw or SVG modification.",
@@ -45,6 +45,69 @@
       "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/docker_flat_square.svg",
       "sha256": "8f6912c54f4bbff69a449aabe9f61a8351f45fd4b3e2a5ae37c1297192e7bb56",
       "bytes": 12215
+    },
+    {
+      "name": "Spring",
+      "path": "profile/badges/spring.svg",
+      "url": "https://flat.badgen.net/badge/tech/Spring/6DB33F?label=",
+      "sha256": "8f11ffbf96c07ac2f1c10a899167ea7345eb975c909480393a8426ef64c416e1",
+      "bytes": 483,
+      "provider": "Badgen",
+      "logo": null
+    },
+    {
+      "name": "MySQL",
+      "path": "profile/badges/mysql.svg",
+      "url": "https://flat.badgen.net/badge/tech/MySQL/4479A1?label=",
+      "sha256": "f8320f5cf50d660de2f498b09f0ac872da9ff52983c4f0165d5dcee26f9667b0",
+      "bytes": 479,
+      "provider": "Badgen",
+      "logo": null
+    },
+    {
+      "name": "Oracle",
+      "path": "profile/badges/oracle.svg",
+      "url": "https://flat.badgen.net/badge/tech/Oracle/F80000?label=",
+      "sha256": "0506868c28b08d0394696563eb34f1810f701ad7e448b787464124b6d9ccaaf8",
+      "bytes": 483,
+      "provider": "Badgen",
+      "logo": null
+    },
+    {
+      "name": "达梦",
+      "path": "profile/badges/dameng.svg",
+      "url": "https://flat.badgen.net/badge/tech/%E8%BE%BE%E6%A2%A6/C83030?label=",
+      "sha256": "f711032651d6fe4128d524a7634d4246af4476682035c64e332bca666cfdf466",
+      "bytes": 483,
+      "provider": "Badgen",
+      "logo": null
+    },
+    {
+      "name": "Compose",
+      "path": "profile/badges/compose.svg",
+      "url": "https://flat.badgen.net/badge/tech/Compose/2496ED?label=",
+      "sha256": "ac1db7201b5576b0c37677e64d4a6c7d3d198503471e0fc0f9410173c6205b14",
+      "bytes": 487,
+      "provider": "Badgen",
+      "logo": null
+    },
+    {
+      "name": "Linux",
+      "path": "profile/badges/linux.svg",
+      "url": "https://flat.badgen.net/badge/tech/Linux/333333?label=",
+      "sha256": "0a238ef893dd38d5e007bb35b73a3c3faf405c0dfae79771c57ed8d429be4c2b",
+      "bytes": 479,
+      "provider": "Badgen",
+      "logo": null
+    },
+    {
+      "name": "CI/CD",
+      "path": "profile/badges/cicd.svg",
+      "url": "https://flat.badgen.net/badge/tech/CI%2FCD/2088FF?label=",
+      "sha256": "536053943ae846980baf1b4b10a6ef506f96f1f5271066a4f54961b5aa638025",
+      "bytes": 477,
+      "provider": "Badgen",
+      "logo": null
     }
   ]
 }

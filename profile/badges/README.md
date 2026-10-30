@@ -1,7 +1,10 @@
 # Public badge assets
 
-These six files are unmodified SVG downloads from [aleen42/badges](https://github.com/aleen42/badges), using its existing `flat_square` variants. See `sources.json` for exact public URLs and SHA-256 hashes, and `LICENSE` for the upstream license.
+All SVG files are original, unmodified downloads from public badge providers; none are locally drawn or recolored. `sources.json` records exact source URLs and SHA-256 hashes for every file.
 
-No custom drawing, generated logo, SVG recoloring, or local badge renderer is used. The README references these repository-local copies.
+- React, Vue, Java, PostgreSQL, MongoDB and Docker: existing `flat_square` assets from [aleen42/badges](https://github.com/aleen42/badges), under the included MIT `LICENSE`.
+- Spring, MySQL, Oracle, 达梦, Compose, Linux and CI/CD: standard flat-square text badges from [Badgen](https://badgen.net/), under its included ISC `LICENSE-BADGEN`. These intentionally have no invented brand logos.
 
-Spring, MySQL, Oracle, 达梦, Compose, Linux and CI/CD remain text in the README because matching ready-made badges were not obtained from this source. Shields.io downloads were unavailable from the execution environment (HTTP 403); they were not replaced with self-drawn badges.
+The README uses repository-local copies. Public service downloads were checked for HTTP 200, valid SVG and expected labels. The source-byte hashes were verified after publication.
+
+Shields.io returned HTTP 403 from the execution environment. These independent public sources were used instead; no alternate exit or authentication bypass was used.

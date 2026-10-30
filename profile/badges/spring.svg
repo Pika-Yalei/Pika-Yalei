@@ -1,0 +1,10 @@
+<svg width="47.5" height="20" viewBox="0 0 475 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spring">
+  <title>Spring</title>
+  <g>
+    <rect fill="#6DB33F" x="0" width="475" height="200"/>
+  </g>
+  <g aria-hidden="true" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="65" y="148" textLength="360" fill="#000" opacity="0.1">Spring</text>
+    <text x="55" y="138" textLength="360" fill="#fff">Spring</text>
+  </g>
+</svg>

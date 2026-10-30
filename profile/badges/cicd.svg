@@ -1,0 +1,10 @@
+<svg width="45" height="20" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CI/CD">
+  <title>CI/CD</title>
+  <g>
+    <rect fill="#2088FF" x="0" width="450" height="200"/>
+  </g>
+  <g aria-hidden="true" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="65" y="148" textLength="335" fill="#000" opacity="0.1">CI/CD</text>
+    <text x="55" y="138" textLength="335" fill="#fff">CI/CD</text>
+  </g>
+</svg>

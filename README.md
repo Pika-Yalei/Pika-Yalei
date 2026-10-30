@@ -25,26 +25,26 @@ Dream Job：💻 数字游牧人
 
 <p>
   <img src="./profile/badges/java.svg" alt="Java" height="28">
-  <code>Spring</code>
+  <img src="./profile/badges/spring.svg" alt="Spring" height="28">
 </p>
 
 **数据库**
 
 <p>
-  <code>MySQL</code>
+  <img src="./profile/badges/mysql.svg" alt="MySQL" height="28">
   <img src="./profile/badges/postgresql.svg" alt="PostgreSQL" height="28">
-  <code>Oracle</code>
+  <img src="./profile/badges/oracle.svg" alt="Oracle" height="28">
   <img src="./profile/badges/mongodb.svg" alt="MongoDB" height="28">
-  <code>达梦</code>
+  <img src="./profile/badges/dameng.svg" alt="达梦" height="28">
 </p>
 
 **基础设施**
 
 <p>
   <img src="./profile/badges/docker.svg" alt="Docker" height="28">
-  <code>Compose</code>
-  <code>Linux</code>
-  <code>CI/CD</code>
+  <img src="./profile/badges/compose.svg" alt="Compose" height="28">
+  <img src="./profile/badges/linux.svg" alt="Linux" height="28">
+  <img src="./profile/badges/cicd.svg" alt="CI/CD" height="28">
 </p>
 
 ## 📊 GitHub Stats
