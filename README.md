@@ -1,22 +1,53 @@
+<div align="center">
+
 # YaLei（Pika）
 
-> 让我们享受当下的美好.
+**Vibe Coding 工程师**
 
-Dream Job：
-- 💻：数字游牧人
+让我们享受当下的美好.
 
-Vibe Coding 工程师
+🔭 数据库 CDC &nbsp; · &nbsp; 🌱 产品设计 &nbsp; · &nbsp; 🤖 AI is everything！
 
-- 🔭 ：数据库 CDC
-- 🌱 ：产品设计
-- 💬 ：Java、Spring、MySQL、PostgreSQL、MongoDB、Oracle、达梦
-- 🤖 ：AI is everything！
+Dream Job：💻 数字游牧人
+
+[个人主页](https://www.yaleizhang.com) &nbsp; · &nbsp; [Email](mailto:pikapi010410@gmail.com)
+
+</div>
 
 ## 🧩 技术栈
-- **前端：** React、Vue
-- **后端：** Java、Spring
-- **数据库：** MySQL、PostgreSQL、Oracle、MongoDB、达梦
-- **基础设施：** Docker、Compose、Linux、CI/CD  
+
+**前端**
+
+<p>
+  <img src="./profile/badges/react.svg" alt="React" height="34">
+  <img src="./profile/badges/vue.svg" alt="Vue" height="34">
+</p>
+
+**后端**
+
+<p>
+  <img src="./profile/badges/java.svg" alt="Java" height="34">
+  <img src="./profile/badges/spring.svg" alt="Spring" height="34">
+</p>
+
+**数据库**
+
+<p>
+  <img src="./profile/badges/mysql.svg" alt="MySQL" height="34">
+  <img src="./profile/badges/postgresql.svg" alt="PostgreSQL" height="34">
+  <img src="./profile/badges/oracle.svg" alt="Oracle" height="34">
+  <img src="./profile/badges/mongodb.svg" alt="MongoDB" height="34">
+  <img src="./profile/badges/dameng.svg" alt="达梦" height="34">
+</p>
+
+**基础设施**
+
+<p>
+  <img src="./profile/badges/docker.svg" alt="Docker" height="34">
+  <img src="./profile/badges/compose.svg" alt="Compose" height="34">
+  <img src="./profile/badges/linux.svg" alt="Linux" height="34">
+  <img src="./profile/badges/cicd.svg" alt="CI/CD" height="34">
+</p>
 
 ## 📊 GitHub Stats
 
@@ -28,5 +59,6 @@ Vibe Coding 工程师
 <!-- Public statistics refresh daily with GitHub Actions. Language usage is not a skill ranking. -->
 
 ## 📫 联系方式
-- 邮箱：pikapi010410@gmail.com
-- 主页：www.yaleizhang.com
+
+**邮箱** &nbsp; [pikapi010410@gmail.com](mailto:pikapi010410@gmail.com)<br>
+**主页** &nbsp; [www.yaleizhang.com](https://www.yaleizhang.com)
