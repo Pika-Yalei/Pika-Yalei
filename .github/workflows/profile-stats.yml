@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/profile-stats.yml']
+    paths: ['.github/workflows/profile-stats.yml', 'scripts/compose_profile_stats.py', 'scripts/test_compose_profile_stats.py']
 
 permissions:
   contents: read
@@ -33,7 +33,7 @@ jobs:
         with:
           card: stats
           options: username=Pika-Yalei&show_icons=true&hide_rank=true&disable_animations=true&title_color=0969da&icon_color=0969da&text_color=1f2328&bg_color=ffffff&border_color=d1d9e0
-          path: profile/stats.svg
+          path: .profile-stats-input/stats.svg
           core_version: '2.2.1'
           fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
         with:
           card: top-langs
           options: username=Pika-Yalei&layout=compact&langs_count=6&disable_animations=true&title_color=0969da&text_color=1f2328&bg_color=ffffff&border_color=d1d9e0
-          path: profile/top-langs.svg
+          path: .profile-stats-input/top-langs.svg
           core_version: '2.2.1'
           fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -53,7 +53,7 @@ jobs:
         with:
           card: stats
           options: username=Pika-Yalei&show_icons=true&hide_rank=true&disable_animations=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d
-          path: profile/stats-dark.svg
+          path: .profile-stats-input/stats-dark.svg
           core_version: '2.2.1'
           fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -63,31 +63,21 @@ jobs:
         with:
           card: top-langs
           options: username=Pika-Yalei&layout=compact&langs_count=6&disable_animations=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d
-          path: profile/top-langs-dark.svg
+          path: .profile-stats-input/top-langs-dark.svg
           core_version: '2.2.1'
           fail_on_error: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate generated SVGs
+      - name: Test and compose one profile card per theme
         run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import xml.etree.ElementTree as ET
-          for name in ('stats', 'top-langs', 'stats-dark', 'top-langs-dark'):
-              path = Path('profile') / f'{name}.svg'
-              content = path.read_text()
-              root = ET.fromstring(content)
-              assert root.tag == '{http://www.w3.org/2000/svg}svg', path
-              assert 'Something went wrong' not in content, path
-              assert root.findall('.//{http://www.w3.org/2000/svg}text'), path
-              print(f'Validated {path}')
-          PY
+          python3 -m unittest discover -s scripts -p 'test_*.py' -v
+          python3 scripts/compose_profile_stats.py
 
       - name: Commit updated cards
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add profile/stats.svg profile/top-langs.svg profile/stats-dark.svg profile/top-langs-dark.svg
+          git add profile/github-stats.svg profile/github-stats-dark.svg
           if git diff --cached --quiet; then
             echo 'Cards are unchanged.'
             exit 0
