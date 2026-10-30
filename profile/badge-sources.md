@@ -8,7 +8,7 @@ The 32 technologies are a concise selection of tools used in development, not a 
 
 Existing matching URLs are preserved. Spring Boot, Vite, Tailwind CSS and RocksDB use documented `springboot`, `vite`, `tailwindcss` and `rocksdb` slugs. Flink CDC uses the Apache Flink icon (`apacheflink`), not an invented separate CDC logo. Compose uses Docker, Shell uses GNU Bash, and Java uses OpenJDK.
 
-Oracle, SQL Server, 达梦 and VS Code use Shields' documented `logo=data:image/svg+xml;base64,...` option. The encoded bytes are existing SVG assets, not newly drawn icons. The four badge backgrounds provide contrast for their original colors; no SVG recoloring or reshaping is performed.
+Oracle, SQL Server, 达梦 and VS Code use Shields' documented `logo=data:image/svg+xml;base64,...` option. Oracle and VS Code retain the original SVG bytes. SQL Server and 达梦 use 32×32 transparent PNG adaptations of the same existing SVG paths: monochrome white on a red badge background. Only color and raster resolution change; the path geometry is not redrawn.
 
 This environment previously received HTTP 403 from the image service. No proxy or alternate exit is used. URL syntax and catalogue slugs are validated; successful image loading is not claimed.
 
@@ -23,4 +23,15 @@ Oracle, SQL Server and 达梦 are community-collected assets from DBX, not claim
 
 [Shields Custom Logos](https://shields.io/docs/logos#custom-logos) · [DBX license](https://github.com/t8y2/dbx/blob/9e2485531c91c7304ca17b8e77482f72bd192f64/LICENSE) · [VS Code brand guidance](https://code.visualstudio.com/brand)
 
-The data URI has been decoded and checked against its source bytes. The image service was not requested again after the earlier HTTP 403; rendered badge loading has not been asserted.
+The SVG data URIs match their original source bytes; the PNG data URIs match the documented derivative files. The image service was not requested again after the earlier HTTP 403; rendered badge loading has not been asserted.
+
+## SQL Server / 达梦 rendering repair
+
+The previous SQL Server URL was 6,934 bytes and its GitHub-rendered Camo URL was 13,968 bytes. The HTML contained the full URL. Its loading failure was reported by the user; URL/header length is a suspected contributor, not a proven server response diagnosis.
+
+Both symbols retain the DBX source geometry above. All original path `d` attributes were checked unchanged before rasterization. Color is adapted to white for legibility. Inkscape renders the source at 32×32; PNG compression preserves those raster pixels. This is a derived display asset, not an unmodified original SVG.
+
+- SQL Server: 32×32 PNG, 863 bytes, SHA-256 `38d87bbffc74e364a4e230ed9771e8ade37ed2bb42fab9119dad2373c09eb98d`.
+- 达梦: 32×32 PNG, 489 bytes, SHA-256 `708e9fe8c3e8481bd53851b9e3f6a301dfb138443b50b5a5c7e120c9de354da5`.
+
+[Shields official data-URI handling](https://github.com/badges/shields/blob/master/lib/logos.js) accepts PNG. The official `badge-maker` 6.0.0 renderer was used locally to compare 28/32px inputs at normal badge size and inspect the final pixels. These preview outputs are not committed or substituted for the public image service. They verify local rendering only, not delivery from Shields/GitHub Camo; neither service was requested to bypass the earlier denial.
