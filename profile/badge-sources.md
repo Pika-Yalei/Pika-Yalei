@@ -8,7 +8,7 @@ The 32 technologies are a concise selection of tools used in development, not a 
 
 Existing matching URLs are preserved. Spring Boot, Vite, Tailwind CSS and RocksDB use documented `springboot`, `vite`, `tailwindcss` and `rocksdb` slugs. Flink CDC uses the Apache Flink icon (`apacheflink`), not an invented separate CDC logo. Compose uses Docker, Shell uses GNU Bash, and Java uses OpenJDK.
 
-Oracle, SQL Server, 达梦 and VS Code use Shields' documented `logo=data:image/svg+xml;base64,...` option. Oracle and VS Code retain the original SVG bytes. SQL Server and 达梦 use 32×32 transparent PNG adaptations of the same existing SVG paths: monochrome white on a red badge background. Only color and raster resolution change; the path geometry is not redrawn.
+Oracle, SQL Server, 达梦 and VS Code use Shields' documented `logo=data:image/svg+xml;base64,...` option. Oracle retains the original SVG bytes. VS Code is rendered from its original SVG as a 32×32 transparent PNG, retaining the original colors and shape. SQL Server and 达梦 use 32×32 transparent PNG adaptations of the same existing SVG paths: monochrome white on a red badge background. Only color and raster resolution change; the path geometry is not redrawn.
 
 This environment previously received HTTP 403 from the image service. No proxy or alternate exit is used. URL syntax and catalogue slugs are validated; successful image loading is not claimed.
 
@@ -35,3 +35,7 @@ Both symbols retain the DBX source geometry above. All original path `d` attribu
 - 达梦: 32×32 PNG, 489 bytes, SHA-256 `708e9fe8c3e8481bd53851b9e3f6a301dfb138443b50b5a5c7e120c9de354da5`.
 
 [Shields official data-URI handling](https://github.com/badges/shields/blob/master/lib/logos.js) accepts PNG. The official `badge-maker` 6.0.0 renderer was used locally to compare 28/32px inputs at normal badge size and inspect the final pixels. These preview outputs are not committed or substituted for the public image service. They verify local rendering only, not delivery from Shields/GitHub Camo; neither service was requested to bypass the earlier denial.
+
+## VS Code rendering repair
+
+The previous 6,077-byte custom SVG URL is replaced by a 2019-byte PNG URL. The 32×32 transparent PNG is mechanically rendered from the same Microsoft SVG without recoloring or changing its geometry; its existing dark badge background is retained. PNG size: 1357 bytes; SHA-256 `ab1c8622cd4799803e6c00145eaafcd54bc898cbcd6b6c94388731664fab09ff`. The official badge-maker 6.0.0 local renderer confirmed a visible blue VS Code symbol. This is local rendering verification, not a claim that Shields/Camo delivery was tested. The user reported the earlier loading failure; URL length remains a suspected contributor, not a proven server error diagnosis.
