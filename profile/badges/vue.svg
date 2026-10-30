@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="61" height="30" viewBox="0 0 61 30" role="img" aria-label="Vue">
-  <title>Vue</title>
-  <rect x="0.5" y="0.5" width="56" height="25" rx="3" fill="#24292f" stroke="#444c56"/>
-  <rect x="8" y="7" width="2" height="12" rx="1" fill="#42b883"/>
-  <text x="18" y="13" dominant-baseline="central" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">Vue</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="32" viewBox="0 0 77 32" role="img" aria-label="Vue"><title>Vue</title><rect width="73" height="28" fill="#4fc08d" /><svg viewBox="0 0 128 128" x="7" y="6" width="16" height="16"><path fill="#ffffff" d="M0 8.934l49.854.158 14.3 24.415 14.3-24.415 49.548-.158-63.835 110.134zm126.987.637l-24.37.021-38.473 66.053L25.692 9.592l-24.75-.02 63.212 107.89z" /></svg><text x="30" y="14" dominant-baseline="central" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400">Vue</text></svg>

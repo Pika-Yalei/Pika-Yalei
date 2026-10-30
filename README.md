@@ -12,39 +12,39 @@ Dream Job：💻 数字游牧人
 
 </div>
 
-## 🧩 技术栈
+## 🛠️ 技术栈
 
 **前端**
 
 <p>
-  <img src="./profile/badges/react.svg" alt="React" height="30">
-  <img src="./profile/badges/vue.svg" alt="Vue" height="30">
+  <img src="./profile/badges/react.svg" alt="React" height="32">
+  <img src="./profile/badges/vue.svg" alt="Vue" height="32">
 </p>
 
 **后端**
 
 <p>
-  <img src="./profile/badges/java.svg" alt="Java" height="30">
-  <img src="./profile/badges/spring.svg" alt="Spring" height="30">
+  <img src="./profile/badges/java.svg" alt="Java" height="32">
+  <img src="./profile/badges/spring.svg" alt="Spring" height="32">
 </p>
 
 **数据库**
 
 <p>
-  <img src="./profile/badges/mysql.svg" alt="MySQL" height="30">
-  <img src="./profile/badges/postgresql.svg" alt="PostgreSQL" height="30">
-  <img src="./profile/badges/oracle.svg" alt="Oracle" height="30">
-  <img src="./profile/badges/mongodb.svg" alt="MongoDB" height="30">
-  <img src="./profile/badges/dameng.svg" alt="达梦" height="30">
+  <img src="./profile/badges/mysql.svg" alt="MySQL" height="32">
+  <img src="./profile/badges/postgresql.svg" alt="PostgreSQL" height="32">
+  <img src="./profile/badges/oracle.svg" alt="Oracle" height="32">
+  <img src="./profile/badges/mongodb.svg" alt="MongoDB" height="32">
+  <img src="./profile/badges/dameng.svg" alt="达梦" height="32">
 </p>
 
 **基础设施**
 
 <p>
-  <img src="./profile/badges/docker.svg" alt="Docker" height="30">
-  <img src="./profile/badges/compose.svg" alt="Compose" height="30">
-  <img src="./profile/badges/linux.svg" alt="Linux" height="30">
-  <img src="./profile/badges/cicd.svg" alt="CI/CD" height="30">
+  <img src="./profile/badges/docker.svg" alt="Docker" height="32">
+  <img src="./profile/badges/compose.svg" alt="Compose" height="32">
+  <img src="./profile/badges/linux.svg" alt="Linux" height="32">
+  <img src="./profile/badges/cicd.svg" alt="CI/CD" height="32">
 </p>
 
 ## 📊 GitHub Stats
