@@ -4,22 +4,10 @@ The README follows [t8y2’s profile](https://github.com/t8y2/t8y2/blob/main/REA
 
 [Shields logo documentation](https://shields.io/docs/logos) · [Simple Icons current slugs](https://github.com/simple-icons/simple-icons/blob/develop/slugs.md)
 
-53 technologies are retained. Most URLs reuse the reference directly. Deprecated icon slugs were updated to current documented forms; unavailable logos are omitted rather than fabricated. Compose uses the Docker icon; Shell uses GNU Bash; Java uses OpenJDK. CI/CD and 达梦 have no claimed unique logo.
+The 32 technologies are a concise selection of tools used in development, not a claim of expert proficiency. Their absence does not imply unfamiliarity.
 
-Updated or unavailable reference slugs:
-- Shell: `gnu-bash` → `gnubash`
-- Vue: `vue.js` → `vuedotjs`
-- CSS: `css3` → `css`
-- SQL Server: `microsoft-sql-server` → text-only badge (unavailable in current catalogue)
-- Oracle: `oracle` → text-only badge (unavailable in current catalogue)
-- Cassandra: `apache-cassandra` → `apachecassandra`
-- DynamoDB: `amazon-dynamodb` → text-only badge (unavailable in current catalogue)
-- Kafka: `apache-kafka` → `apachekafka`
-- RocketMQ: `apache-rocketmq` → `apacherocketmq`
-- Pulsar: `apache-pulsar` → `apachepulsar`
-- Flink: `apache-flink` → `apacheflink`
-- GitHub Actions: `github-actions` → `githubactions`
-- VS Code: `visual-studio-code` → text-only badge (unavailable in current catalogue)
-- Maven: `apache-maven` → `apachemaven`
+Existing matching URLs are preserved. Spring Boot, Vite, Tailwind CSS and RocksDB use documented `springboot`, `vite`, `tailwindcss` and `rocksdb` slugs. Flink CDC uses the Apache Flink icon (`apacheflink`), not an invented separate CDC logo. Compose uses Docker, Shell uses GNU Bash, and Java uses OpenJDK.
+
+SQL Server, Oracle, VS Code and 达梦 currently use text-only badges. Their missing catalogue slugs are not a technical limitation: Shields supports custom logos, but no custom artwork is introduced here.
 
 This environment previously received HTTP 403 from the image service. No proxy or alternate exit is used. URL syntax and catalogue slugs are validated; successful image loading is not claimed.
