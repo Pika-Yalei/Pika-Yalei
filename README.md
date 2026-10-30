@@ -20,6 +20,8 @@ Dream Job：💻 数字游牧人
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
 **框架 & 前端**
 
@@ -47,6 +49,9 @@ Dream Job：💻 数字游牧人
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![RocksDB](https://img.shields.io/badge/RocksDB-2A2A2A?style=flat-square&logo=rocksdb&logoColor=white)
+![GaussDB](https://img.shields.io/badge/GaussDB-C7000B?style=flat-square)
+![openGauss](https://img.shields.io/badge/openGauss-1F70C1?style=flat-square)
+![OceanBase](https://img.shields.io/badge/OceanBase-147DDB?style=flat-square)
 
 **消息 & 流处理**
 
