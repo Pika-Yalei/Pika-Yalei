@@ -78,3 +78,5 @@ SOFTWARE.
 ```
 
 Antigravity uses Google's first-party [full-color icon](https://antigravity.google/assets/image/brand/antigravity-icon__full-color.png) from [Press Assets](https://antigravity.google/press), proportionally resized from 540×540 to 28×28, preserving color, shape and transparent padding. No icon redrawing. Trademark remains Google's; descriptive tooling reference only.
+
+Grok uses the existing [Lobe Icons Grok symbol](https://github.com/lobehub/lobe-icons/blob/master/packages/static-svg/icons/grok.svg), under the LobeHub MIT license reproduced above. Its unchanged path is rendered white at 28×28 to transparent PNG for a short custom-logo URL. This is a community-distributed brand mark, not an endorsement or claim of first-party distribution; the trademark belongs to its owner.
