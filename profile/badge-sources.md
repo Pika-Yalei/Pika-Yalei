@@ -4,7 +4,7 @@ The README follows [t8y2’s profile](https://github.com/t8y2/t8y2/blob/main/REA
 
 [Shields logo documentation](https://shields.io/docs/logos) · [Simple Icons current slugs](https://github.com/simple-icons/simple-icons/blob/develop/slugs.md)
 
-The 32 technologies are a concise selection of tools used in development, not a claim of expert proficiency. Their absence does not imply unfamiliarity.
+The displayed technologies reflect the user's requested selection, not a claim of expert proficiency. Their absence does not imply unfamiliarity.
 
 Existing matching URLs are preserved. Spring Boot, Vite, Tailwind CSS and RocksDB use documented `springboot`, `vite`, `tailwindcss` and `rocksdb` slugs. Flink CDC uses the Apache Flink icon (`apacheflink`), not an invented separate CDC logo. Compose uses Docker, Shell uses GNU Bash, and Java uses OpenJDK.
 
@@ -39,3 +39,11 @@ Both symbols retain the DBX source geometry above. All original path `d` attribu
 ## VS Code rendering repair
 
 The previous 6,077-byte custom SVG URL is replaced by a 2019-byte PNG URL. The 32×32 transparent PNG is mechanically rendered from the same Microsoft SVG without recoloring or changing its geometry; its existing dark badge background is retained. PNG size: 1357 bytes; SHA-256 `ab1c8622cd4799803e6c00145eaafcd54bc898cbcd6b6c94388731664fab09ff`. The official badge-maker 6.0.0 local renderer confirmed a visible blue VS Code symbol. This is local rendering verification, not a claim that Shields/Camo delivery was tested. The user reported the earlier loading failure; URL length remains a suspected contributor, not a proven server error diagnosis.
+
+## Complete icon check (47 badges)
+
+The tool group is now **开发 & 工具** and includes Kubernetes. All 47 badges have a named or custom logo. Named slugs were checked against Simple Icons 16.36.0; every badge was rendered with the official badge-maker 6.0.0 library and inspected as pixels locally.
+
+The seven previously text-only badges now use real project imagery: MyBatis and MyBatis-Plus project-owned logo repositories; GaussDB/openGauss/OceanBase community-collected database symbols from DBX; Canal and DataX own project wordmarks. DataX uses the existing colored X portion cropped mechanically. Canal retains its complete original wordmark because no standalone project symbol was found; it is small at the fixed 14px logo slot and is not claimed to be highly legible. No generic company logo is substituted and no logo shape is drawn anew. All seven URLs are under 2,000 bytes.
+
+[Custom source hashes and adaptation details](./badge-custom-sources.json). Community collection is not described as official brand authorization. The OceanBase community logo is an older color variant, not claimed to be the latest official artwork. Local rendering and online HTML inspection do not establish external image delivery; Shields/Camo were not requested around the earlier HTTP 403.

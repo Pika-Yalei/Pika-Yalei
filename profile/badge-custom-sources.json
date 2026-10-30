@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-10-30",
+  "local_renderer": "badge-maker 6.0.0",
+  "named_icon_catalogue": "simple-icons 16.36.0",
+  "assets": [
+    {
+      "name": "MyBatis",
+      "source": {
+        "url": "https://raw.githubusercontent.com/mybatis/logo/master/logo-bird-ninja.svg",
+        "sha256": "371a8b563f8e64e9c43c94a63b059fe54fbeeef2dc22d61ce77dcdd37f782362",
+        "classification": "First-party project logo repository; no endorsement claim"
+      },
+      "adaptation": "Original symbol resized to badge resolution, transparent padding preserves aspect ratio; PNG palette optimization.",
+      "png_sha256": "d787a4855262f52f26064478d311b60ee04522666dfeb439db7854d8e5f60fee",
+      "png_bytes": 1145,
+      "url_bytes": 1727
+    },
+    {
+      "name": "MyBatis-Plus",
+      "source": {
+        "url": "https://raw.githubusercontent.com/baomidou/logo/master/mybatis-plus-logo.svg",
+        "sha256": "7fed2d78cb8e8be0a8c581d7c18e1a435542c52e69017776bd465fa12394c93d",
+        "classification": "First-party project logo repository; no endorsement claim"
+      },
+      "adaptation": "Original symbol resized to badge resolution, transparent padding preserves aspect ratio; PNG palette optimization.",
+      "png_sha256": "ef6f7df57b0586b264d1dcaa3e11d8e9dc21fae30f686da1d312f2e9e944f963",
+      "png_bytes": 672,
+      "url_bytes": 1071
+    },
+    {
+      "name": "GaussDB",
+      "source": {
+        "url": "https://raw.githubusercontent.com/t8y2/dbx/9e2485531c91c7304ca17b8e77482f72bd192f64/apps/desktop/public/icons/database/gaussdb.svg",
+        "sha256": "c73871c4432cab3459014e554c76718bd97a5f3ee7c290ae3a7a929099238e59",
+        "classification": "DBX community-collected project logo, not a claim of first-party authorization"
+      },
+      "adaptation": "Original symbol resized to badge resolution, transparent padding preserves aspect ratio; PNG palette optimization.",
+      "png_sha256": "a8b337f623c31114db69026c5dd70cb67fb4fd44009eb69f11babf7e1468e759",
+      "png_bytes": 1132,
+      "url_bytes": 1697
+    },
+    {
+      "name": "openGauss",
+      "source": {
+        "url": "https://raw.githubusercontent.com/t8y2/dbx/9e2485531c91c7304ca17b8e77482f72bd192f64/apps/desktop/public/icons/database/opengauss.svg",
+        "sha256": "dd0dc12476a69c7def3fb72adcf96af998732c76c608437b2e4fd092ce76392a",
+        "classification": "DBX community-collected project logo, not a claim of first-party authorization"
+      },
+      "adaptation": "Original symbol resized to badge resolution, transparent padding preserves aspect ratio; PNG palette optimization.",
+      "png_sha256": "7e9b8876ed8f0ab50a0fd19b4bdb966fa774a04ae92cd00ce4e7c37425a4cf0b",
+      "png_bytes": 565,
+      "url_bytes": 887
+    },
+    {
+      "name": "OceanBase",
+      "source": {
+        "url": "https://raw.githubusercontent.com/t8y2/dbx/9e2485531c91c7304ca17b8e77482f72bd192f64/apps/desktop/public/icons/database/oceanbase.svg",
+        "sha256": "c91966e58a29d24c8e400edeb1fcf3240cb0d658e65d3ab593cf321bea2b9b74",
+        "classification": "DBX community-collected project logo, not a claim of first-party authorization"
+      },
+      "adaptation": "Original symbol resized to badge resolution, transparent padding preserves aspect ratio; PNG palette optimization.",
+      "png_sha256": "5617a1c7293062f71c135d6afae1565178614702d3f4f0cb88bb6bc12bea35fc",
+      "png_bytes": 527,
+      "url_bytes": 843
+    },
+    {
+      "name": "Canal",
+      "source": {
+        "url": "https://raw.githubusercontent.com/alibaba/canal/master/logo.png",
+        "sha256": "de8425fcb0c5cba4be03ff75f2b7253d0a41dd0e7dcac2cae2b7a0e7067b4ddd",
+        "classification": "First-party project wordmark; project repository Apache-2.0 does not grant trademark rights"
+      },
+      "adaptation": "Complete original Canal wordmark, trimmed transparent padding and proportionally resized; no invented standalone C symbol. Small at the fixed 14px logo slot.",
+      "png_sha256": "fbb0c6a42eb0061494ad36c1df2aadb7710fcdbfcbeaabfc7185b7ca58a609c5",
+      "png_bytes": 630,
+      "url_bytes": 975
+    },
+    {
+      "name": "DataX",
+      "source": {
+        "url": "https://raw.githubusercontent.com/alibaba/DataX/master/images/datax.logo.png",
+        "sha256": "8119c90f5736168cac407610e34851a21cf0b09d5686fe0dfcc53bff83b1ac7c",
+        "classification": "First-party project wordmark; project repository Apache-2.0 does not grant trademark rights"
+      },
+      "adaptation": "Existing colored X symbol mechanically cropped from the original project wordmark (456,30,686,237), resized proportionally, original dark background retained; no redraw.",
+      "png_sha256": "871ef0cac148f73c18d1c9614993a30bd82a9c88f0a85f96a5fefb007054f2c8",
+      "png_bytes": 709,
+      "url_bytes": 1223
+    }
+  ],
+  "validation": "All 47 badges locally rendered and visually inspected; external Shields/Camo image delivery not tested or claimed."
+}
