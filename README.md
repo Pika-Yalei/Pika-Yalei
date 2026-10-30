@@ -21,12 +21,8 @@ Vibe Coding 工程师
 ## 📊 GitHub Stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img height="195" align="top" src="./profile/stats.svg" alt="Pika-Yalei 的 GitHub 公开贡献统计">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img height="195" align="top" src="./profile/top-langs.svg" alt="Pika-Yalei 公开仓库的常用语言">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-stats-dark.svg">
+  <img src="./profile/github-stats.svg" alt="Pika-Yalei 的 GitHub 公开贡献统计和常用语言">
 </picture>
 
 <!-- Public statistics refresh daily with GitHub Actions. Language usage is not a skill ranking. -->
