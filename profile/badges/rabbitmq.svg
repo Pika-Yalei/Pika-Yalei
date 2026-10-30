@@ -1,0 +1,10 @@
+<svg width="64.8" height="20" viewBox="0 0 648 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RabbitMQ">
+  <title>RabbitMQ</title>
+  <g>
+    <rect fill="#FF6600" x="0" width="648" height="200"/>
+  </g>
+  <g aria-hidden="true" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="65" y="148" textLength="533" fill="#000" opacity="0.1">RabbitMQ</text>
+    <text x="55" y="138" textLength="533" fill="#fff">RabbitMQ</text>
+  </g>
+</svg>

@@ -1,10 +1,10 @@
 # Public badge assets
 
-All SVG files are original, unmodified downloads from public badge providers; none are locally drawn or recolored. `sources.json` records exact source URLs and SHA-256 hashes for every file.
+All 53 SVG badges are unmodified downloads from public providers. None are locally drawn, recolored or given invented logos. `sources.json` records each exact URL, provider and SHA-256 hash.
 
-- React, Vue, Java, PostgreSQL, MongoDB and Docker: existing `flat_square` assets from [aleen42/badges](https://github.com/aleen42/badges), under the included MIT `LICENSE`.
-- Spring, MySQL, Oracle, 达梦, Compose, Linux and CI/CD: standard flat-square text badges from [Badgen](https://badgen.net/), under its included ISC `LICENSE-BADGEN`. These intentionally have no invented brand logos.
+- Existing `flat_square` assets from [aleen42/badges](https://github.com/aleen42/badges): MIT, see `LICENSE`.
+- Standard flat-square text badges from [Badgen](https://badgen.net/): ISC, see `LICENSE-BADGEN`. These deliberately have no invented logo.
 
-The README uses repository-local copies. Public service downloads were checked for HTTP 200, valid SVG and expected labels. The source-byte hashes were verified after publication.
+The profile uses repository-local copies. Source responses were HTTP 200 and parsed as SVG; source-byte hashes are verified after publication. Shields.io was not used because downloads returned HTTP 403 from the execution environment; no alternate exit or authentication bypass was used.
 
-Shields.io returned HTTP 403 from the execution environment. These independent public sources were used instead; no alternate exit or authentication bypass was used.
+The database/storage and messaging sections follow the user's supplied reference screenshot, retaining the existing 达梦 badge. Other additions follow the user's explicit list.

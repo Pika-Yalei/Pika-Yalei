@@ -1,0 +1,10 @@
+<svg width="73.8" height="20" viewBox="0 0 738 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DynamoDB">
+  <title>DynamoDB</title>
+  <g>
+    <rect fill="#4053D6" x="0" width="738" height="200"/>
+  </g>
+  <g aria-hidden="true" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="65" y="148" textLength="623" fill="#000" opacity="0.1">DynamoDB</text>
+    <text x="55" y="138" textLength="623" fill="#fff">DynamoDB</text>
+  </g>
+</svg>

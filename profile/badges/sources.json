@@ -108,6 +108,326 @@
       "bytes": 477,
       "provider": "Badgen",
       "logo": null
+    },
+    {
+      "name": "Kubernetes",
+      "path": "profile/badges/kubernetes.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/kubernetes_flat_square.svg",
+      "sha256": "5389300106b7848a5b5e7db46a9a781b93f9c88df1c3e5995b22a9efbab4fb4b",
+      "bytes": 6536,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Jenkins",
+      "path": "profile/badges/jenkins.svg",
+      "url": "https://flat.badgen.net/badge/tech/Jenkins/D24939?label=",
+      "sha256": "5bf23669af816f21aae9acd643c8de984fde30d1319dd53b3ba6fc460872b4ef",
+      "bytes": 487,
+      "provider": "Badgen"
+    },
+    {
+      "name": "GitHub Actions",
+      "path": "profile/badges/github-actions.svg",
+      "url": "https://flat.badgen.net/badge/tech/GitHub%20Actions/2088FF?label=",
+      "sha256": "7546544a0dbf30794e46043ddeb95fb300b31f525591853a042c6608c55c36ce",
+      "bytes": 515,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Nginx",
+      "path": "profile/badges/nginx.svg",
+      "url": "https://flat.badgen.net/badge/tech/Nginx/009639?label=",
+      "sha256": "cedc26c4086168bcce6a2ff03423387b1749db000224c0c3f6d140784fb84451",
+      "bytes": 479,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Cloudflare",
+      "path": "profile/badges/cloudflare.svg",
+      "url": "https://flat.badgen.net/badge/tech/Cloudflare/F38020?label=",
+      "sha256": "58d0b6166c640bf3c1da81a7a582f394198fa8357941b6ca7e1d021edc13d2f2",
+      "bytes": 499,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Git",
+      "path": "profile/badges/git.svg",
+      "url": "https://flat.badgen.net/badge/tech/Git/F05032?label=",
+      "sha256": "e3d6d54bbeee6df8601500114f76ac24ce7823987f4efc757115f878cef08525",
+      "bytes": 471,
+      "provider": "Badgen"
+    },
+    {
+      "name": "macOS",
+      "path": "profile/badges/macos.svg",
+      "url": "https://flat.badgen.net/badge/tech/macOS/000000?label=",
+      "sha256": "f4e22b9e8c48c17e37b1b3bd9bb2bdf7bc99ae18866931127f96bf3737f55e6b",
+      "bytes": 477,
+      "provider": "Badgen"
+    },
+    {
+      "name": "VS Code",
+      "path": "profile/badges/vscode.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/visual_studio_code_flat_square.svg",
+      "sha256": "c178c244bd8e2330a31ec667e5d18bef4e7de9d50cdc32c5b93f98e14b69048f",
+      "bytes": 3365,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Vim",
+      "path": "profile/badges/vim.svg",
+      "url": "https://flat.badgen.net/badge/tech/Vim/019733?label=",
+      "sha256": "4b58ec04d15ebdfdd44acfdc149f771ddfa72dadc602e3492899f70dd22c74be",
+      "bytes": 469,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Homebrew",
+      "path": "profile/badges/homebrew.svg",
+      "url": "https://flat.badgen.net/badge/tech/Homebrew/876530?label=",
+      "sha256": "38f30b77d25f5a69933292117ea12ed8b65f323b1f077a48d7e631812c054270",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Markdown",
+      "path": "profile/badges/markdown.svg",
+      "url": "https://flat.badgen.net/badge/tech/Markdown/000000?label=",
+      "sha256": "d3bdfe54221c426c38419a0d5b6a0f3f91a4e1114bbc521f787d3e5945f61d27",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Maven",
+      "path": "profile/badges/maven.svg",
+      "url": "https://flat.badgen.net/badge/tech/Maven/C71A36?label=",
+      "sha256": "9ed74c861bac9427853cc0c6f3d62b78869f8274bfe5f409cb9c87ae1b269cc6",
+      "bytes": 479,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Gradle",
+      "path": "profile/badges/gradle.svg",
+      "url": "https://flat.badgen.net/badge/tech/Gradle/02303A?label=",
+      "sha256": "86d82c3dada3e1dd3232fe098fec74299c411c51f3e97b7b1dc46f171a60a3f6",
+      "bytes": 483,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Rust",
+      "path": "profile/badges/rust.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/rust_flat_square.svg",
+      "sha256": "5f77063d4b045d52d41063683f1c1338a69b87115c135c2eebf613d3f61324e0",
+      "bytes": 8399,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Go",
+      "path": "profile/badges/go.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/golang_flat_square.svg",
+      "sha256": "d556ef4f847abdca847cac9778d1f45ad4f830b6fd4ab527f9507f1e4ad885c7",
+      "bytes": 6010,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "TypeScript",
+      "path": "profile/badges/typescript.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/typescript_flat_square.svg",
+      "sha256": "c5730cf2d2ff8fae79ec994518abf6487c2c7824e4f5aeaf90c5a57fe1ea3171",
+      "bytes": 4520,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "JavaScript",
+      "path": "profile/badges/javascript.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/javascript_flat_square.svg",
+      "sha256": "c9fe0bb1fe9505b3c08aa3f9106da35431f912602fe33bfc7dfd5f3a4f041df5",
+      "bytes": 2826,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Python",
+      "path": "profile/badges/python.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/python_flat_square.svg",
+      "sha256": "343fec0c1816e79d3cb99065e7f7a4f8ffc97dd04bc5f4e8c985a1dc01fe2257",
+      "bytes": 4422,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Kotlin",
+      "path": "profile/badges/kotlin.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/kotlin_flat_square.svg",
+      "sha256": "83db87b1513849fc0efde485846d5e46c8dca44e06f3c6ee259199af08a40f8c",
+      "bytes": 3138,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Shell",
+      "path": "profile/badges/shell.svg",
+      "url": "https://flat.badgen.net/badge/tech/Shell/4EAA25?label=",
+      "sha256": "43aa987e2aad1f860561b15e137433acd8ef93b48bc23fc5fbd1324afe58d1f7",
+      "bytes": 479,
+      "provider": "Badgen"
+    },
+    {
+      "name": "HTML5",
+      "path": "profile/badges/html.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/html5_flat_square.svg",
+      "sha256": "6fd3ef2167ab6ab9b5a0735d4ac64cfa0309490b9a2a258a7e804b2560f0ae58",
+      "bytes": 1130,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "CSS3",
+      "path": "profile/badges/css.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/css3_flat_square.svg",
+      "sha256": "f01102663e7f1b7260b277176dbf55035a7df282d3703f969b5a49285c7ae9d2",
+      "bytes": 1170,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "SQLite",
+      "path": "profile/badges/sqlite.svg",
+      "url": "https://flat.badgen.net/badge/tech/SQLite/003B57?label=",
+      "sha256": "ade28ecee879bfeff1366cda282cdcbf2afb369b1399db616acf08ef0d3b53d0",
+      "bytes": 483,
+      "provider": "Badgen"
+    },
+    {
+      "name": "SQL Server",
+      "path": "profile/badges/sqlserver.svg",
+      "url": "https://flat.badgen.net/badge/tech/SQL%20Server/CC2927?label=",
+      "sha256": "acf9de0b99be8e37df1edd03fbd34f44a935a989632db90b188ec0200e6537fd",
+      "bytes": 499,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Redis",
+      "path": "profile/badges/redis.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/redis_flat_square.svg",
+      "sha256": "b9a573aad548e2ebbe9d6d0105dd8dbe2c433bc5d0f86d38682c282f351738bf",
+      "bytes": 2824,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "DuckDB",
+      "path": "profile/badges/duckdb.svg",
+      "url": "https://flat.badgen.net/badge/tech/DuckDB/806F00?label=",
+      "sha256": "2d5f7db9ac2eacbd31f3fded2d9cc9e6fcce63b9d1a86536b77a27b53d3f40fd",
+      "bytes": 483,
+      "provider": "Badgen"
+    },
+    {
+      "name": "ClickHouse",
+      "path": "profile/badges/clickhouse.svg",
+      "url": "https://flat.badgen.net/badge/tech/ClickHouse/806F00?label=",
+      "sha256": "f371483e6ae5114d880bb563400b34833b3ce096350debdf7678554036a1fb59",
+      "bytes": 499,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Elasticsearch",
+      "path": "profile/badges/elasticsearch.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/elasticsearch_flat_square.svg",
+      "sha256": "d4efbcc75d6705170a62b223d20461a6af1b47356abec9cc27fcdc6e819084de",
+      "bytes": 2727,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "Neo4j",
+      "path": "profile/badges/neo4j.svg",
+      "url": "https://flat.badgen.net/badge/tech/Neo4j/4581C3?label=",
+      "sha256": "49b41f427400164a1079dc4000f797691d98b5fc608e726cef66ca70259afbf2",
+      "bytes": 479,
+      "provider": "Badgen"
+    },
+    {
+      "name": "InfluxDB",
+      "path": "profile/badges/influxdb.svg",
+      "url": "https://flat.badgen.net/badge/tech/InfluxDB/22ADF6?label=",
+      "sha256": "6ff8bab8fbdd48fb838d49c9a64e88a5602def012b0d7b9e41e1e0d17756fadb",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Cassandra",
+      "path": "profile/badges/cassandra.svg",
+      "url": "https://flat.badgen.net/badge/tech/Cassandra/1287B1?label=",
+      "sha256": "f9342cc6691219e1f53ef15aa045a76ac559ac902e908d45ff5cf9eac3bc9f7b",
+      "bytes": 493,
+      "provider": "Badgen"
+    },
+    {
+      "name": "DynamoDB",
+      "path": "profile/badges/dynamodb.svg",
+      "url": "https://flat.badgen.net/badge/tech/DynamoDB/4053D6?label=",
+      "sha256": "799c3bf30be5ba05b8c552d0effd6531d988c64c9930c8f8033842d86a40dba9",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Firebase",
+      "path": "profile/badges/firebase.svg",
+      "url": "https://flat.badgen.net/badge/tech/Firebase/B87900?label=",
+      "sha256": "ee64a671dca00b164b071d35b50edaacff969b6ffc7e66af3ce0faab97bc98f1",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Supabase",
+      "path": "profile/badges/supabase.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/supabase_flat_square.svg",
+      "sha256": "ab46fc0a00781baaeeccb61f9ac07d3a818a5aae25dd4b25dc26a835935a886f",
+      "bytes": 1943,
+      "provider": "aleen42/badges"
+    },
+    {
+      "name": "MinIO",
+      "path": "profile/badges/minio.svg",
+      "url": "https://flat.badgen.net/badge/tech/MinIO/C72E49?label=",
+      "sha256": "62c1b2159a9397fc2ab811f272fedd679425ad49ec652700e74864ad4adc2b1d",
+      "bytes": 479,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Kafka",
+      "path": "profile/badges/kafka.svg",
+      "url": "https://flat.badgen.net/badge/tech/Kafka/231F20?label=",
+      "sha256": "b583417aeef7670127e9f66611f55d28a59761180a3c8f7b55590ef01d91bf11",
+      "bytes": 479,
+      "provider": "Badgen"
+    },
+    {
+      "name": "RabbitMQ",
+      "path": "profile/badges/rabbitmq.svg",
+      "url": "https://flat.badgen.net/badge/tech/RabbitMQ/FF6600?label=",
+      "sha256": "244a5b619e1f4203bc3bd6a02c0c17b4cd8ffdc45f5272389f301c5ae5b8e1fb",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "RocketMQ",
+      "path": "profile/badges/rocketmq.svg",
+      "url": "https://flat.badgen.net/badge/tech/RocketMQ/D77310?label=",
+      "sha256": "440933d44dfffe38e6b90f07acd486f4da9bc19d71c0d8154a1a879d51ab809d",
+      "bytes": 491,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Pulsar",
+      "path": "profile/badges/pulsar.svg",
+      "url": "https://flat.badgen.net/badge/tech/Pulsar/188FFF?label=",
+      "sha256": "96bf0ad10eea2c0a76bb62e8a9f66472e4ba8b3be73bd9b594a694c7a3ef6dd1",
+      "bytes": 483,
+      "provider": "Badgen"
+    },
+    {
+      "name": "Flink",
+      "path": "profile/badges/flink.svg",
+      "url": "https://flat.badgen.net/badge/tech/Flink/E6526F?label=",
+      "sha256": "b1f5224e86bf8f57cbea587a4e40b937f5ff7358fc95c95a4d1aa399b7ed97a6",
+      "bytes": 479,
+      "provider": "Badgen"
     }
   ]
 }

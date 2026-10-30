@@ -1,0 +1,10 @@
+<svg width="33" height="20" viewBox="0 0 330 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vim">
+  <title>Vim</title>
+  <g>
+    <rect fill="#019733" x="0" width="330" height="200"/>
+  </g>
+  <g aria-hidden="true" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="65" y="148" textLength="215" fill="#000" opacity="0.1">Vim</text>
+    <text x="55" y="138" textLength="215" fill="#fff">Vim</text>
+  </g>
+</svg>
