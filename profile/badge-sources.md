@@ -47,3 +47,34 @@ The tool group is now **开发 & 工具** and includes Kubernetes. All 47 badges
 The seven previously text-only badges now use real project imagery: MyBatis and MyBatis-Plus project-owned logo repositories; GaussDB/openGauss/OceanBase community-collected database symbols from DBX; Canal and DataX own project wordmarks. DataX uses the existing colored X portion cropped mechanically. Canal retains its complete original wordmark because no standalone project symbol was found; it is small at the fixed 14px logo slot and is not claimed to be highly legible. No generic company logo is substituted and no logo shape is drawn anew. All seven URLs are under 2,000 bytes.
 
 [Custom source hashes and adaptation details](./badge-custom-sources.json). Community collection is not described as official brand authorization. The OceanBase community logo is an older color variant, not claimed to be the latest official artwork. Local rendering and online HTML inspection do not establish external image delivery; Shields/Camo were not requested around the earlier HTTP 403.
+
+
+## AI tool badges
+
+Claude / Claude Code share the Claude mark (`claude`); Gemini uses `googlegemini`; Cursor uses `cursor`, verified in Simple Icons 16.36.0. ChatGPT / Codex share the OpenAI Blossom mark from [Lobe Icons](https://github.com/lobehub/lobe-icons/blob/master/packages/static-svg/icons/openai.svg), a community collection, not a claim of first-party artwork distribution or endorsement. The unchanged SVG path is rendered in monochrome white at 28×28 to a transparent PNG for a short Shields custom-logo URL. OpenAI owns the mark; see [brand guidelines](https://openai.com/brand/). Lobe Icons source license follows.
+
+```text
+MIT License
+
+Copyright (c) 2023 LobeHub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+Antigravity uses Google's first-party [full-color icon](https://antigravity.google/assets/image/brand/antigravity-icon__full-color.png) from [Press Assets](https://antigravity.google/press), proportionally resized from 540×540 to 28×28, preserving color, shape and transparent padding. No icon redrawing. Trademark remains Google's; descriptive tooling reference only.
