@@ -1,0 +1,50 @@
+{
+  "provider": "aleen42/badges",
+  "variant": "flat_square",
+  "downloaded_at": "2026-10-30",
+  "note": "Original downloaded SVG bytes; no redraw or SVG modification.",
+  "badges": [
+    {
+      "name": "react",
+      "path": "profile/badges/react.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/react_flat_square.svg",
+      "sha256": "90a1c2aa76808d167174ef1d40af9b5a1b2f4723e6777b6dad04b30f95902506",
+      "bytes": 2990
+    },
+    {
+      "name": "vue",
+      "path": "profile/badges/vue.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/vue_flat_square.svg",
+      "sha256": "10dbb60c814771640b3afe502d212027c9e7c33ef29a48e46fc981cffc14ba1f",
+      "bytes": 2039
+    },
+    {
+      "name": "java",
+      "path": "profile/badges/java.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/java_flat_square.svg",
+      "sha256": "03b8ab8a4441442fa5e5c586664ebbc8db0b7cd37ee175bfb69f7db031dbf1b0",
+      "bytes": 4784
+    },
+    {
+      "name": "postgresql",
+      "path": "profile/badges/postgresql.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/postgresql_flat_square.svg",
+      "sha256": "074b04c5f2f4e75ff1277c9dce36e227cfe4c7ee4799b2a7eb0ee3772bf7130a",
+      "bytes": 12760
+    },
+    {
+      "name": "mongodb",
+      "path": "profile/badges/mongodb.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/mongodb_flat_square.svg",
+      "sha256": "e7cd2fb890fde2f2d6812f2f5aceffce58e10c1af46f4c7a47065333bcc3d4fc",
+      "bytes": 8000
+    },
+    {
+      "name": "docker",
+      "path": "profile/badges/docker.svg",
+      "url": "https://raw.githubusercontent.com/aleen42/badges/docs/src/docker_flat_square.svg",
+      "sha256": "8f6912c54f4bbff69a449aabe9f61a8351f45fd4b3e2a5ae37c1297192e7bb56",
+      "bytes": 12215
+    }
+  ]
+}
