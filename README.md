@@ -17,85 +17,87 @@ Dream Job：💻 数字游牧人
 **编程语言**
 
 <p>
-  <img src="./profile/badges/rust.svg" alt="Rust" height="28">
-  <img src="./profile/badges/go.svg" alt="Go" height="28">
-  <img src="./profile/badges/typescript.svg" alt="TypeScript" height="28">
-  <img src="./profile/badges/javascript.svg" alt="JavaScript" height="28">
-  <img src="./profile/badges/java.svg" alt="Java" height="28">
-  <img src="./profile/badges/python.svg" alt="Python" height="28">
-  <img src="./profile/badges/kotlin.svg" alt="Kotlin" height="28">
-  <img src="./profile/badges/shell.svg" alt="Shell" height="28">
+  <a href="https://www.rust-lang.org/"><img src="./profile/icons/rust.svg" alt="Rust" title="Rust" height="28">&nbsp;Rust</a> &nbsp;
+  <a href="https://go.dev/"><img src="./profile/icons/go.svg" alt="Go" title="Go" height="28">&nbsp;Go</a> &nbsp;
+  <a href="https://www.typescriptlang.org/"><img src="./profile/icons/typescript.svg" alt="TypeScript" title="TypeScript" height="28">&nbsp;TypeScript</a> &nbsp;
+  JavaScript &nbsp;
+  Java &nbsp;
+  <a href="https://www.python.org/"><img src="./profile/icons/python.svg" alt="Python" title="Python" height="28">&nbsp;Python</a> &nbsp;
+  <a href="https://kotlinlang.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/icons/kotlin.svg"><img src="./profile/icons/kotlin-dark.svg" alt="Kotlin" title="Kotlin" height="20"></picture></a> &nbsp;
+  Shell &nbsp;
 </p>
 
 **前端 & 后端**
 
 <p>
-  <img src="./profile/badges/react.svg" alt="React" height="28">
-  <img src="./profile/badges/vue.svg" alt="Vue" height="28">
-  <img src="./profile/badges/html.svg" alt="HTML5" height="28">
-  <img src="./profile/badges/css.svg" alt="CSS3" height="28">
-  <img src="./profile/badges/spring.svg" alt="Spring" height="28">
+  <a href="https://react.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/icons/react.svg"><img src="./profile/icons/react-dark.svg" alt="React" title="React" height="28"></picture>&nbsp;React</a> &nbsp;
+  <a href="https://vuejs.org/"><img src="./profile/icons/vue.svg" alt="Vue" title="Vue" height="28">&nbsp;Vue</a> &nbsp;
+  <a href="https://www.w3.org/html/"><img src="./profile/icons/html.svg" alt="HTML5" title="HTML5" height="28">&nbsp;HTML5</a> &nbsp;
+  <a href="https://github.com/CSS-Next/logo.css"><img src="./profile/icons/css.svg" alt="CSS" title="CSS" height="28">&nbsp;CSS</a> &nbsp;
+  Spring &nbsp;
 </p>
 
 **数据库 & 存储**
 
 <p>
-  <img src="./profile/badges/mysql.svg" alt="MySQL" height="28">
-  <img src="./profile/badges/postgresql.svg" alt="PostgreSQL" height="28">
-  <img src="./profile/badges/sqlite.svg" alt="SQLite" height="28">
-  <img src="./profile/badges/sqlserver.svg" alt="SQL Server" height="28">
-  <img src="./profile/badges/oracle.svg" alt="Oracle" height="28">
-  <img src="./profile/badges/redis.svg" alt="Redis" height="28">
-  <img src="./profile/badges/mongodb.svg" alt="MongoDB" height="28">
-  <img src="./profile/badges/duckdb.svg" alt="DuckDB" height="28">
-  <img src="./profile/badges/clickhouse.svg" alt="ClickHouse" height="28">
-  <img src="./profile/badges/elasticsearch.svg" alt="Elasticsearch" height="28">
-  <img src="./profile/badges/neo4j.svg" alt="Neo4j" height="28">
-  <img src="./profile/badges/influxdb.svg" alt="InfluxDB" height="28">
-  <img src="./profile/badges/cassandra.svg" alt="Cassandra" height="28">
-  <img src="./profile/badges/dynamodb.svg" alt="DynamoDB" height="28">
-  <img src="./profile/badges/firebase.svg" alt="Firebase" height="28">
-  <img src="./profile/badges/supabase.svg" alt="Supabase" height="28">
-  <img src="./profile/badges/minio.svg" alt="MinIO" height="28">
-  <img src="./profile/badges/dameng.svg" alt="达梦" height="28">
+  MySQL &nbsp;
+  <a href="https://www.postgresql.org/"><img src="./profile/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" height="28">&nbsp;PostgreSQL</a> &nbsp;
+  SQLite &nbsp;
+  SQL&nbsp;Server &nbsp;
+  Oracle &nbsp;
+  Redis &nbsp;
+  <a href="https://www.mongodb.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/icons/mongodb-dark.svg"><img src="./profile/icons/mongodb.svg" alt="MongoDB" title="MongoDB" height="20"></picture></a> &nbsp;
+  DuckDB &nbsp;
+  ClickHouse &nbsp;
+  Elasticsearch &nbsp;
+  Neo4j &nbsp;
+  InfluxDB &nbsp;
+  <a href="https://cassandra.apache.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/icons/cassandra-dark.svg"><img src="./profile/icons/cassandra.svg" alt="Cassandra" title="Cassandra" height="28"></picture>&nbsp;Cassandra</a> &nbsp;
+  DynamoDB &nbsp;
+  <a href="https://firebase.google.com/"><img src="./profile/icons/firebase.svg" alt="Firebase" title="Firebase" height="28">&nbsp;Firebase</a> &nbsp;
+  <a href="https://supabase.com/"><img src="./profile/icons/supabase.svg" alt="Supabase" title="Supabase" height="28">&nbsp;Supabase</a> &nbsp;
+  <a href="https://min.io/"><img src="./profile/icons/minio.svg" alt="MinIO" title="MinIO" width="80"></a> &nbsp;
+  达梦 &nbsp;
 </p>
 
 **消息 & 流处理**
 
 <p>
-  <img src="./profile/badges/kafka.svg" alt="Kafka" height="28">
-  <img src="./profile/badges/rabbitmq.svg" alt="RabbitMQ" height="28">
-  <img src="./profile/badges/rocketmq.svg" alt="RocketMQ" height="28">
-  <img src="./profile/badges/pulsar.svg" alt="Pulsar" height="28">
-  <img src="./profile/badges/flink.svg" alt="Flink" height="28">
+  <a href="https://kafka.apache.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/icons/kafka-dark.svg"><img src="./profile/icons/kafka.svg" alt="Kafka" title="Kafka" height="20"></picture></a> &nbsp;
+  RabbitMQ &nbsp;
+  <a href="https://rocketmq.apache.org/"><img src="./profile/icons/rocketmq.png" alt="RocketMQ" title="RocketMQ" height="20"></a> &nbsp;
+  <a href="https://pulsar.apache.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/icons/pulsar-dark.svg"><img src="./profile/icons/pulsar.svg" alt="Pulsar" title="Pulsar" height="20"></picture></a> &nbsp;
+  <a href="https://flink.apache.org/"><img src="./profile/icons/flink.png" alt="Flink" title="Flink" height="28">&nbsp;Flink</a> &nbsp;
 </p>
 
 **DevOps & 云原生**
 
 <p>
-  <img src="./profile/badges/docker.svg" alt="Docker" height="28">
-  <img src="./profile/badges/compose.svg" alt="Compose" height="28">
-  <img src="./profile/badges/kubernetes.svg" alt="Kubernetes" height="28">
-  <img src="./profile/badges/jenkins.svg" alt="Jenkins" height="28">
-  <img src="./profile/badges/github-actions.svg" alt="GitHub Actions" height="28">
-  <img src="./profile/badges/nginx.svg" alt="Nginx" height="28">
-  <img src="./profile/badges/cloudflare.svg" alt="Cloudflare" height="28">
-  <img src="./profile/badges/cicd.svg" alt="CI/CD" height="28">
+  Docker &nbsp;
+  Compose &nbsp;
+  <a href="https://kubernetes.io/"><img src="./profile/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" height="28">&nbsp;Kubernetes</a> &nbsp;
+  <a href="https://www.jenkins.io/"><img src="./profile/icons/jenkins.svg" alt="Jenkins" title="Jenkins" height="28">&nbsp;Jenkins</a> &nbsp;
+  GitHub&nbsp;Actions &nbsp;
+  Nginx &nbsp;
+  Cloudflare &nbsp;
+  CI/CD &nbsp;
 </p>
 
 **工具 & 构建**
 
 <p>
-  <img src="./profile/badges/git.svg" alt="Git" height="28">
-  <img src="./profile/badges/linux.svg" alt="Linux" height="28">
-  <img src="./profile/badges/macos.svg" alt="macOS" height="28">
-  <img src="./profile/badges/vscode.svg" alt="VS Code" height="28">
-  <img src="./profile/badges/vim.svg" alt="Vim" height="28">
-  <img src="./profile/badges/homebrew.svg" alt="Homebrew" height="28">
-  <img src="./profile/badges/markdown.svg" alt="Markdown" height="28">
-  <img src="./profile/badges/maven.svg" alt="Maven" height="28">
-  <img src="./profile/badges/gradle.svg" alt="Gradle" height="28">
+  <a href="https://git-scm.com/"><img src="./profile/icons/git.svg" alt="Git" title="Git" height="28">&nbsp;Git</a> &nbsp;
+  <a href="https://www.kernel.org/"><img src="./profile/icons/linux.png" alt="Linux" title="Linux" height="28">&nbsp;Linux</a> &nbsp;
+  macOS &nbsp;
+  <a href="https://code.visualstudio.com/"><img src="./profile/icons/vscode.svg" alt="VS Code" title="VS Code" height="28"></a> &nbsp;
+  <a href="https://www.vim.org/"><img src="./profile/icons/vim.svg" alt="Vim" title="Vim" height="28">&nbsp;Vim</a> &nbsp;
+  <a href="https://brew.sh/"><img src="./profile/icons/homebrew.svg" alt="Homebrew" title="Homebrew" height="28">&nbsp;Homebrew</a> &nbsp;
+  Markdown &nbsp;
+  <a href="https://maven.apache.org/"><img src="./profile/icons/maven.svg" alt="Maven" title="Maven" height="28">&nbsp;Maven</a> &nbsp;
+  Gradle &nbsp;
 </p>
+
+<sub>[图标来源与许可](./profile/icons/README.md) · MinIO is a registered trademark of the MinIO Corporation. MongoDB is a registered trademark of MongoDB, Inc.</sub>
 
 ## 📊 GitHub Stats
 
