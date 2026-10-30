@@ -49,6 +49,8 @@ Dream Job：💻 数字游牧人
 ![Flink CDC](https://img.shields.io/badge/Flink%20CDC-E6526F?style=flat-square&logo=apacheflink&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 ![RocketMQ](https://img.shields.io/badge/RocketMQ-D77310?style=flat-square&logo=apacherocketmq&logoColor=white)
+![Canal](https://img.shields.io/badge/Canal-2F855A?style=flat-square)
+![DataX](https://img.shields.io/badge/DataX-2563EB?style=flat-square)
 
 **开发 & 工程工具**
 
