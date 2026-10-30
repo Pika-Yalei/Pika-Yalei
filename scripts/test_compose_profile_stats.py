@@ -24,10 +24,11 @@ class CompositionTests(unittest.TestCase):
             panels = root.findall(tag('svg'))
             self.assertEqual([n.attrib['height'] for n in panels], ['195', '165'])
             self.assertEqual([n.attrib['y'] for n in panels], ['12', '12'])
-            self.assertEqual(root.find(tag('rect')).attrib['fill'], '#0d1117' if dark else '#ffffff')
+            self.assertIsNone(root.find(tag('rect')))
+            self.assertIsNone(root.find(tag('line')))
             ids = [n.attrib['id'] for n in root.iter() if 'id' in n.attrib]
             self.assertEqual(len(ids), len(set(ids)))
-            self.assertEqual(len(root.findall('.//' + tag('rect'))), 1)
+            self.assertEqual(len(root.findall('.//' + tag('rect'))), 0)
             self.assertEqual(len(root.findall('.//' + tag('text'))), 2)
             css = '\n'.join(n.text for n in root.findall('.//' + tag('style')))
             self.assertIn('.stats-header', css)

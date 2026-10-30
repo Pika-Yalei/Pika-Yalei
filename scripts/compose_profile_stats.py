@@ -62,7 +62,7 @@ def panel(path, prefix):
             css = re.sub(r'animation(?:-[\w-]+)?\s*:[^;}]+;?', '', css)
             css = re.sub(r'opacity\s*:\s*0\s*;', 'opacity: 1;', css)
             node.text = css
-    # Remove only the individual backgrounds; the composition owns its outer frame.
+    # Remove only the individual backgrounds; the composition stays transparent.
     for parent in root.iter():
         for child in list(parent):
             if child.attrib.get('data-testid') == 'card-bg':
@@ -84,16 +84,7 @@ def compose(stats, languages, dark=False):
     ET.SubElement(root, tag('desc'), {'id': 'profile-description'}).text = (
         'Public GitHub contribution statistics and most used repository languages. Updated daily.'
     )
-    ET.SubElement(root, tag('rect'), {
-        'x': '0.5', 'y': '0.5', 'width': f'{width-1:g}', 'height': f'{height-1:g}',
-        'rx': '8', 'fill': '#0d1117' if dark else '#ffffff',
-        'stroke': '#30363d' if dark else '#d1d9e0',
-    })
-    ET.SubElement(root, tag('line'), {
-        'x1': f'{padding+lw+gap/2:g}', 'x2': f'{padding+lw+gap/2:g}',
-        'y1': '24', 'y2': f'{height-24:g}',
-        'stroke': '#30363d' if dark else '#d1d9e0',
-    })
+    # No outer background, border or divider: blend directly into the profile.
     for node, x in ((left, padding), (right, padding + lw + gap)):
         node.set('x', f'{x:g}')
         node.set('y', str(padding))
