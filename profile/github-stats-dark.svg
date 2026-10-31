@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="652" height="219" viewBox="0 0 652 219" fill="none" role="img" aria-labelledby="profile-title profile-description"><title id="profile-title">Pika-Yalei — GitHub Stats</title><desc id="profile-description">Public GitHub contribution statistics and most used repository languages. Updated daily.</desc><svg width="304" height="195" viewBox="0 0 304 195" fill="none" role="img" aria-labelledby="stats-descId" x="12" y="12">
         <title id="stats-titleId">YaLei's GitHub Stats, Rank: B+</title>
-        <desc id="stats-descId">Total Stars Earned: 9, Total Commits  (last year) : 404, Total PRs: 201, Total Issues: 49, Contributed to (last year): 10</desc>
+        <desc id="stats-descId">Total Stars Earned: 9, Total Commits  (last year) : 432, Total PRs: 207, Total Issues: 49, Contributed to (last year): 10</desc>
         <style>
           .stats-header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -64,7 +64,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 110.02875014430087;
+        stroke-dashoffset: 108.69889368831664;
       }
     }
   
@@ -129,7 +129,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total Commits (last year):</text>
-      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="commits">404</text>
+      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="commits">432</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stats-stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -139,7 +139,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total PRs:</text>
-      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="prs">201</text>
+      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="prs">207</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stats-stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -266,17 +266,17 @@
           <rect x="0" y="0" width="250" height="8" fill="white" rx="5" />
         </mask>
         
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="0" y="0" width="115.38" height="8" fill="#b07219" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="0" y="0" width="115" height="8" fill="#b07219" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="115.38" y="0" width="46.69" height="8" fill="#00ADD8" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="115" y="0" width="46.53" height="8" fill="#00ADD8" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="162.07" y="0" width="39.74" height="8" fill="#f1e05a" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="161.53" y="0" width="40.42" height="8" fill="#f1e05a" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="201.81" y="0" width="24.78" height="8" fill="#dea584" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="201.95" y="0" width="24.7" height="8" fill="#dea584" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="226.59" y="0" width="13.6" height="8" fill="#A97BFF" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="226.64999999999998" y="0" width="13.56" height="8" fill="#A97BFF" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="240.19" y="0" width="19.82" height="8" fill="#3178c6" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="240.20999999999998" y="0" width="19.78" height="8" fill="#3178c6" />
       
       
     <g transform="translate(0, 25)">
@@ -284,42 +284,42 @@
     <g class="langs-stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Java 46.15%
+        Java 46.00%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="langs-stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Go 18.67%
+        Go 18.61%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="langs-stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        JavaScript 15.89%
+        JavaScript 16.17%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="langs-stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Rust 9.91%
+        Rust 9.88%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="langs-stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#A97BFF" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Kotlin 5.44%
+        Kotlin 5.42%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="langs-stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        TypeScript 3.93%
+        TypeScript 3.91%
       </text>
     </g>
   </g></g>
