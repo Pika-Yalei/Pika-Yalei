@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="652" height="219" viewBox="0 0 652 219" fill="none" role="img" aria-labelledby="profile-title profile-description"><title id="profile-title">Pika-Yalei — GitHub Stats</title><desc id="profile-description">Public GitHub contribution statistics and most used repository languages. Updated daily.</desc><svg width="304" height="195" viewBox="0 0 304 195" fill="none" role="img" aria-labelledby="stats-descId" x="12" y="12">
         <title id="stats-titleId">YaLei's GitHub Stats, Rank: B+</title>
-        <desc id="stats-descId">Total Stars Earned: 9, Total Commits  (last year) : 444, Total PRs: 220, Total Issues: 50, Contributed to (last year): 10</desc>
+        <desc id="stats-descId">Total Stars Earned: 9, Total Commits  (last year) : 450, Total PRs: 225, Total Issues: 52, Contributed to (last year): 10</desc>
         <style>
           .stats-header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -64,7 +64,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 107.55019193586452;
+        stroke-dashoffset: 106.86666484102022;
       }
     }
   
@@ -129,7 +129,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total Commits (last year):</text>
-      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="commits">444</text>
+      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="commits">450</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stats-stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -139,7 +139,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total PRs:</text>
-      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="prs">220</text>
+      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="prs">225</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stats-stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -149,7 +149,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total Issues:</text>
-      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="issues">50</text>
+      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="issues">52</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stats-stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -266,17 +266,17 @@
           <rect x="0" y="0" width="250" height="8" fill="white" rx="5" />
         </mask>
         
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="0" y="0" width="110.35" height="8" fill="#b07219" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="0" y="0" width="109.49" height="8" fill="#b07219" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="110.35" y="0" width="47.5" height="8" fill="#f1e05a" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="109.49" y="0" width="48.03" height="8" fill="#f1e05a" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="157.85" y="0" width="44.65" height="8" fill="#00ADD8" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="157.51999999999998" y="0" width="44.3" height="8" fill="#00ADD8" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="202.5" y="0" width="23.7" height="8" fill="#dea584" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="201.82" y="0" width="23.51" height="8" fill="#dea584" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="226.2" y="0" width="13.01" height="8" fill="#A97BFF" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="225.32999999999998" y="0" width="12.91" height="8" fill="#A97BFF" />
       
-        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="239.20999999999998" y="0" width="10.79" height="8" fill="#e34c26" />
+        <rect mask="url(#langs-rect-mask)" data-testid="lang-progress" x="238.23999999999998" y="0" width="11.76" height="8" fill="#e34c26" />
       
       
     <g transform="translate(0, 25)">
@@ -284,42 +284,42 @@
     <g class="langs-stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Java 44.14%
+        Java 43.80%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="langs-stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        JavaScript 19.00%
+        JavaScript 19.21%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="langs-stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Go 17.86%
+        Go 17.72%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="langs-stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Rust 9.48%
+        Rust 9.41%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="langs-stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#A97BFF" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        Kotlin 5.20%
+        Kotlin 5.16%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="langs-stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class="langs-lang-name">
-        HTML 4.32%
+        HTML 4.70%
       </text>
     </g>
   </g></g>
