@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="652" height="219" viewBox="0 0 652 219" fill="none" role="img" aria-labelledby="profile-title profile-description"><title id="profile-title">Pika-Yalei — GitHub Stats</title><desc id="profile-description">Public GitHub contribution statistics and most used repository languages. Updated daily.</desc><svg width="304" height="195" viewBox="0 0 304 195" fill="none" role="img" aria-labelledby="stats-descId" x="12" y="12">
         <title id="stats-titleId">YaLei's GitHub Stats, Rank: B+</title>
-        <desc id="stats-descId">Total Stars Earned: 9, Total Commits  (last year) : 542, Total PRs: 286, Total Issues: 58, Contributed to (last year): 10</desc>
+        <desc id="stats-descId">Total Stars Earned: 9, Total Commits  (last year) : 542, Total PRs: 286, Total Issues: 59, Contributed to (last year): 10</desc>
         <style>
           .stats-header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -64,7 +64,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 101.81445209921702;
+        stroke-dashoffset: 101.69975622746898;
       }
     }
   
@@ -149,7 +149,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total Issues:</text>
-      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="issues">58</text>
+      <text class="stats-stat stats-bold" x="224.01" y="12.5" data-testid="issues">59</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stats-stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
